@@ -2,6 +2,7 @@ body, html {
     height: 100%;
     margin-top: 0px;
     margin-left:0;
+    margin-right: 0;
 }
 
 .hero{
@@ -30,9 +31,9 @@ body, html {
 
   .titulo{
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     font-style:italic;
-    color: black;
+    color: indianred;
     text-align: center;
     margin-top: 40px;
 }
@@ -61,7 +62,7 @@ body, html {
 #acerca_de{
     height:400px;
     width:100%;
-    background: wheat;
+    background: indianred;
     padding: 20px;
 }
 
@@ -114,9 +115,35 @@ body, html {
     font-size: 18px;
 }
 
-#tituloH{
+.tituloH{
     margin-left:40px;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 50px;
+    color: indianred;
     font-style: italic;
+}
+
+#redes{
+    text-align: center;
+}
+
+#redes dt{
+    font-size:35px;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#redes dd{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.hero_redes{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("redes.jpg");
+    height:60vh;
+    width: 100vw;
+    background-position: center;
+    position: relative;
+    margin-top: 0px;
 }
