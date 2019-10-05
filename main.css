@@ -29,24 +29,30 @@ body, html {
   }
 
   .titulo{
-      font-family: sans-serif;
-      font-size: 30px;
-      font-style:italic;
-      color: black;
-      text-align: center;
-      margin-top: 40px;
-  }
-  .proyecto{
-      margin-left: 90px;
-      height: 750px;
-      width: 400px;
-      border: solid 1px black;
-      background: lightgray;
-      margin-top: 40px;
-      display: inline-block;
-  }
+    font-family: sans-serif;
+    font-size: 30px;
+    font-style:italic;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+.proyecto{
+    margin-left: 85px;
+    height: auto;
+    width: 400px;
+    border: solid 1px black;
+    background: lightyellow;
+    margin-top: 40px;
+    display: inline-block;
+}
 
-  .imagen{
-      width: 100%;
-      display: block;
-  }
+.imagen{
+    width: 100%;
+    display: block;
+}
+
+.texto{
+    font-family: sans-serif;
+    font-size:18px;
+    margin-left: 10px;
+}
